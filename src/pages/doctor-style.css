@@ -1,0 +1,105 @@
+/* doctor-style.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #030b1d;
+  color: #ffffff;
+}
+
+.logo {
+  color: #14cdd7;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  z-index: 10;
+}
+
+.containerd {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 80px;
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.text-sectiond {
+  max-width: 50%;
+  z-index: 2;
+}
+
+.text-sectiond h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.text-sectiond h2 span {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text-sectiond p {
+  font-size: 1rem;
+  color: #cccccc;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.download-btnd {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-image: linear-gradient(90deg,#057272,#1d90a1, #00a7cc);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.download-btnd:hover {
+  background-image: linear-gradient(90deg, #00a7cc,#1d90a1, #056a6a);
+}
+
+.image-sectiond {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -280px;
+  margin-right: 80px;
+}
+
+.image-sectiond img {
+  width: 500px;
+  max-width: 100%;
+  border-top-left-radius: 600px;
+  border-bottom-left-radius: 600px;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 800px;
+  position: absolute;
+  height: 700px;
+  object-fit: cover;
+}
+
+.login-btnd {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 12px 30px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #00c9c8;
+  border: 2px solid #00c9c8;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.login-btnd:hover {
+    border: none;
+    background-image: linear-gradient(90deg,#057272,#1d90a1, #00a7cc);
+    color: white;
+}

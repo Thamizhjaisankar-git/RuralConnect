@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Optional: prevents horizontal scroll */
+}
+
+.landing-body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #031a3c, #000000);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+   overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.content {
+  text-align: left;
+  flex: 1;
+}
+
+.logo {
+  color: #39b6bd;
+  font-size: 1.5rem;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.welcome-text {
+  font-size: 2.5rem;
+  margin-top: 250px;
+  margin-bottom: 40px;
+  margin-left: 180px;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  margin-left: 220px;
+}
+
+.button-group button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(90deg, #14CDD7, #20979d, #28868b, #0c5e62);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-group button:hover {
+  background-image: linear-gradient(90deg, #0c5e62, #28868b, #20979d, #14CDD7);
+}
